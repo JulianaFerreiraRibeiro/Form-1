@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.conteiner {
+    display: flex;
+    align-items: center;
+}
+
+.title1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: 'Outfit', sans-serif;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    width: 500px;
+    margin-left: 500px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 70px;
+    background-image: linear-gradient( 171.8deg,  rgba(255, 0, 0, 0.356) -6.3%, rgb(164, 29, 74) 86.7% );
+    width: 500px;
+    height: 470px;
+    margin-left: 260px;
+    border-radius: 4px;
+}
+
+.title2 {
+    margin-bottom: 45px;
+    margin-top: 40px;
+    margin-left: 20px;
+    border-bottom: 1px solid rgb(255, 0, 128);
+}
+
+.title2:hover {
+    border-bottom: 1px solid rgb(164, 29, 74)
+}
+
+.name {
+    margin-bottom: 45px;
+    margin-left: 20px;
+    width: 400px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.318);
+}
+
+.name:hover {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    
+}
+
+.name:focus {
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.name::placeholder {
+    font-family: 'Outfit', sans-serif;
+}
+
+.name:focus::placeholder{
+    color: rgb(0, 0, 0)
+}
+
+.name:hover::placeholder {
+    color: rgb(255, 255, 255)
+}
+.email {
+    margin-bottom: 45px;
+    margin-left: 20px;
+    width: 400px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.318);
+}
+
+.email:hover {
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.email:focus {
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.email::placeholder {
+    font-family: 'Outfit', sans-serif;
+}
+
+ 
+.email:focus::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+.email:hover::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.subject {
+    margin-bottom: 45px;
+    margin-left: 20px;
+    width: 400px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.318);
+}
+
+.subject:hover {
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.subject:focus {
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.subject::placeholder{
+    font-family: 'Outfit', sans-serif;
+}
+
+.subject:focus::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+.subject:hover::placeholder{
+    color: rgb(255, 255, 255);
+}
+
+.message {
+    margin-bottom: 15px;
+    margin-left: 20px;
+    width: 400px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.318);
+    color:black;
+    height:60px;
+}
+
+.message:hover {
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.message:focus{
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.message::placeholder{
+    font-family: 'Outfit', sans-serif;
+}
+
+.message:focus::placeholder {
+    color: rgb(0, 0, 0)
+}
+
+.message:hover::placeholder {
+    color: rgb(255, 255, 255)
+}
+
+.send {
+    margin-left: 20px;
+    width: 120px;
+    background-color: rgba(255, 0, 0, 0.376);
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-family: 'Outfit', sans-serif ;
+    height: 50px; 
+}
+
+.send:hover {
+    background-color: rgba(200, 0, 255, 0.186);
+    transition: 0.5;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 500px;
+    height: 470px;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 70px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-right: 100px;
+    border-radius: 4px;
+}
+.objective {
+    margin-bottom: 45px;
+    margin-left: 20px;
+}
+
+.iconw {
+    height: 20px;
+    border-radius: 2px;
+}
+
+.whatsapp {
+    display: flex;
+    margin-bottom: 45px;
+    margin-left: 20px;
+    gap: 10px;
+}
+
+a[href$="https://api.whatsapp.com/send/?phone=5551984378666&text&type=phone_number&app_absent=0"] {
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.832);
+}
+a[href$="https://api.whatsapp.com/send/?phone=5551984378666&text&type=phone_number&app_absent=0"]:hover{
+    color: rgb(0, 0, 0)
+}
+
+.iconi{
+    height: 20px;
+    border-radius: 2px;
+}
+
+.instagram {
+    display: flex;
+    margin-bottom: 45px;
+    margin-left: 20px;
+    gap: 10px;
+}
+a[href$="https://www.instagram.com/juxufr_/"] {
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.832)
+}
+
+a[href$="https://www.instagram.com/juxufr_/"]:hover {
+    color: rgb(0, 0, 0);
+}
+
+.icone {
+    height: 20px;
+    border-radius: 2px
+}
+
+.email {
+    display: flex;
+    margin-bottom: 45px;
+    margin-left: 20px;
+    gap: 10px;
+}
+
+a[href$="mailto:julianaferreiraribeiro@gmail.com"] {
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.832)
+}
+
+a[href$="mailto:julianaferreiraribeiro@gmail.com"]:hover {
+    color: rgb(0, 0, 0);
+}
+
+.iconl {
+    height: 20px;
+    border-radius: 2px;
+}
+
+.linkedin {
+    display: flex;
+    margin-bottom: 45px;
+    margin-left: 20px;
+    gap: 10px;
+}
+
+a[href$="https://www.linkedin.com/in/juliana-ferreira-ribeiro-b20016216/"] {
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.832);
+}
+
+a[href$="https://www.linkedin.com/in/juliana-ferreira-ribeiro-b20016216/"]:hover {
+    color:rgb(0, 0, 0);
+}
+
+.icong {
+    height: 20px;
+    border-radius: 2px;
+}
+
+.github {
+    display: flex;
+    margin-bottom: 65px;
+    margin-left: 20px;
+    gap: 10px;
+}
+
+a[href$="https://github.com/JulianaFerreiraRibeiro"] {
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.832);
+}
+
+a[href$="https://github.com/JulianaFerreiraRibeiro"]:hover {
+    color: rgb(0, 0, 0);
+}
